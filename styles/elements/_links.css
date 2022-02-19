@@ -1,0 +1,9 @@
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $primary-color;
+  }
+}
