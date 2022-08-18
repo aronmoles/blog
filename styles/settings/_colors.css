@@ -1,25 +1,31 @@
-$_eucalyptus: rgb(48, 209, 88);
+/* Opcion 1 => FFB94B,373E40 */
+/* Opcion 2 => 92CF93,2E3B51 */
+/* Opcion 3 => F7CB2D,52688F */
+/* Opcion 4 => 94EDFF,1D3B58 */
+
+$_green: #FFB94B;
 $_green-pea: #19623b;
-$_baltic-sea: #282729;
-$_cod-gray: #181818;
+$_baltic-sea: #373E40;
+$_cod-gray: #FFB94B;
 $_dove-gray: #666;
 $_boulder: #777;
 $_white: #fff;
-$_alabaster: #fafafa;
+$_black: #555;
+$_alabaster: #fafafadd;
 $_gallery: #ececec;
+$_gray-background: #dfe0df;
 
-$primary-color: $_eucalyptus;
+$primary-color: $_green;
 $primary-dark-color: $_green-pea;
 
-$background-dark-color: $_baltic-sea;
-$background-darker-color: $_cod-gray;
-$background-light-color: $_alabaster;
-$background-lighter-color: $_white;
+$background-color: $_baltic-sea;
+$background-text-color: $_alabaster;
+$background-light-color: $_gallery;
 
-$text-color: $_cod-gray;
-$link-color: $_cod-gray;
+$text-color: $_white;
+$link-color: $_white;
 $text-muted-color: $_dove-gray;
-$text-inverted-color: $_white;
+$text-inverted-color: $_black;
 
 $border-color: $_dove-gray;
 $border-inverted-color: $_gallery;

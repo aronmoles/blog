@@ -1,1 +1,99 @@
+@import "./../styles/settings/_variables.css";
 
+.header {
+    height: 30vw;
+    min-height: 25rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.title {
+    font-size: $fs-title-l;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
+
+.lastName {
+    color: $primary-color;
+}
+
+.subtitle {
+    font-size: $fs-title-s;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    margin: 0;
+}
+
+.infoContainer {
+    background-color: $background-light-color;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem;
+}
+
+.info {
+    color: $text-inverted-color;
+    border: 1px solid $text-inverted-color;
+    background-color: $_gray-background;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 15%;
+
+    min-width: 8rem;
+    max-width: 12rem;
+    min-height: 7rem;
+
+    box-shadow: 0 4px 4px 0 $primary-color;
+    transition: 0.3s;
+
+    &:hover {
+        box-shadow: 0 8px 8px 0 $primary-color;
+    }
+
+    & * {
+        margin: 0;
+    }
+
+    & h1 {
+        font-weight: 200;
+    }
+
+    & p {
+        font-weight: 300;
+        font-size: 1.2rem;
+    }
+}
+
+.technologies {
+    background-color: $primary-color;
+    min-height: 15rem;
+}
+
+.footer {
+    padding: 2rem;
+    background-color: $_gray-background;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+
+    & > img {
+        width: 48px;
+        height: 48px;
+        color: $text-inverted-color;
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}
